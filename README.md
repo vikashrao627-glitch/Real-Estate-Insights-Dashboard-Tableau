@@ -65,7 +65,7 @@ The dashboard includes interactive filters, charts, maps, KPI cards, calculated 
 
 <p align="center">
 
-<img src="Images/real-estate-dashboard.png" alt="Real Estate Insights Dashboard" width="100%">
+![Real Estate Insights Dashboard](./Images/Real_Estate_Sales.png)
 
 </p>
 
