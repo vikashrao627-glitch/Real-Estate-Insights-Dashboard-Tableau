@@ -5,17 +5,8 @@ An interactive **Real Estate Insights Dashboard** developed in **Tableau Public*
 The project transforms real estate sales data into an interactive business intelligence dashboard that helps users understand **where sales are strongest, how the market is trending, and which property types dominate the market**.
 
 ---
-# 📸 Dashboard Preview
 
-Add your dashboard screenshot here:
-
-```markdown
-![Real Estate Insights Dashboard](Images/Real_Estate_Sales.png)
-
----
-
-
-#📌 Project Overview 
+## 📌 Project Overview
 
 The objective of this project is to analyze real estate sales data from **2011 to 2022** and provide meaningful business insights through interactive data visualization.
 
@@ -394,6 +385,16 @@ Created three story points:
 3. Property Market
 
 Published the final dashboard using Tableau Public.
+
+---
+
+# 📸 Dashboard Preview
+
+Add your dashboard screenshot here:
+
+```markdown
+![Real Estate Insights Dashboard](Images/Real_Estate_Sales.png)
+```
 
 ---
 
