@@ -12,8 +12,10 @@ Add your dashboard screenshot here:
 ```markdown
 ![Real Estate Insights Dashboard](Images/Real_Estate_Sales.png)
 
+---
 
-## 📌 Project Overview
+
+#📌 Project Overview 
 
 The objective of this project is to analyze real estate sales data from **2011 to 2022** and provide meaningful business insights through interactive data visualization.
 
