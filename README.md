@@ -392,8 +392,7 @@ Published the final dashboard using Tableau Public.
 
 Add your dashboard screenshot here:
 
-```markdown
-![Real Estate Insights Dashboard](Images/Real_Estate_Sales.png)
+![Real Estate Insights Dashboard](./Images/Real_Estate_Sales.png)
 ```
 
 ---
@@ -404,7 +403,7 @@ Add your dashboard screenshot here:
 Add your Tableau Public dashboard link here.
 
 ```text
-https://public.tableau.com/
+https://public.tableau.com/app/profile/vikash.rao/viz/Real_Estate_sale/Dashboard?publish=yes
 ```
 
 Replace the above with your actual published workbook URL.
