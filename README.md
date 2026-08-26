@@ -1,170 +1,230 @@
 # 🏠 Real Estate Insights Dashboard | Tableau
 
-An interactive **Real Estate Insights Dashboard** developed in **Tableau Public** to analyze property sales, market trends, town-level performance, property types, and residential categories.
+<p align="center">
 
-The project transforms real estate sales data into an interactive business intelligence dashboard that helps users understand **where sales are strongest, how the market is trending, and which property types dominate the market**.
+### 📊 Interactive Real Estate Market Analytics Dashboard
 
----
+**Transforming Real Estate Data into Actionable Business Insights**
 
-## 📌 Project Overview
+</p>
 
-The objective of this project is to analyze real estate sales data from **2011 to 2022** and provide meaningful business insights through interactive data visualization.
+<p align="center">
 
-The dashboard combines:
 
-* KPI Cards
-* Interactive Filters
-* Geographic Maps
-* Sales Trend Analysis
-* Town-Level Sales Analysis
-* Property Type Analysis
-* Residential Type Analysis
-* Sales Ratio Analysis
+\
 
-The final dashboard allows users to explore the real estate market from **overall, geographic, and property-level perspectives**.
+</p>
 
 ---
 
-## 🎯 Business Objective
+# 📌 Project Overview
 
-The main objective is to understand:
+The **Real Estate Insights Dashboard** is an interactive Business Intelligence project developed using **Tableau** to analyze real estate sales data from **2011 to 2022**.
 
-1. Overall real estate market performance
-2. Sales trends between 2011 and 2022
-3. High-performing towns
-4. Dominant property types
-5. Average sale values
-6. Differences in sales ratios across towns
-7. Geographic and residential market patterns
+The project transforms raw real estate transaction data into an interactive dashboard that helps users understand:
 
----
+* 📈 Sales trends
+* 🏘️ Town-level performance
+* 🏠 Property type distribution
+* 💰 Average sale values
+* 🗺️ Geographic sales patterns
+* 📊 Sales ratio performance
+* 🏡 Residential market composition
 
-## ❓ Business Questions
-
-### Question 1 — Market Overview
-
-**What is the overall condition and trend of the real estate market?**
-
-The dashboard shows a positive sales trend over the analyzed period, while the average sale amount remains relatively low.
-
-### Question 2 — Geographic Performance
-
-**Which towns are performing strongly?**
-
-Fort Collins is identified as a strong-performing town based on overall sales performance.
-
-### Question 3 — Property Market
-
-**Which property types dominate the market?**
-
-Single Family properties are the dominant property type in the dataset.
+The main objective is to convert raw transactional data into **clear, interactive, and business-focused insights**.
 
 ---
 
-# 📊 Dashboard Overview
+# 🎯 Business Objective
+
+The goal of this project is to provide a centralized analytical dashboard for understanding real estate market performance.
+
+The dashboard helps answer important business questions such as:
+
+* How are real estate sales changing over time?
+* Which towns generate the highest sales?
+* Which locations have higher average sale values?
+* Which property types dominate the market?
+* How does residential property distribution vary by location?
+* Which areas have higher or lower sales ratios?
+* What geographic patterns can be observed in the market?
+
+---
+
+# 📊 Dashboard
+
+## 🔗 Live Tableau Dashboard
+
+### 👉 [View Interactive Real Estate Dashboard](https://public.tableau.com/app/profile/vikash.rao/viz/Real_Estate_sale/Dashboard?publish=yes)
+
+The dashboard includes interactive filters, charts, maps, KPI cards, calculated fields, and dashboard actions.
+
+---
+
+## 🖼️ Dashboard Preview
+
+<p align="center">
+
+<img src="Images/real-estate-dashboard.png" alt="Real Estate Insights Dashboard" width="100%">
+
+</p>
+
+> **Note:** Make sure the screenshot filename matches the actual image stored inside your `Images` folder.
+
+---
+
+# 📅 Dataset
+
+### Analysis Period
+
+**2011 – 2022**
+
+The dataset contains real estate transaction information used to analyze sales performance across different locations, property types, and residential categories.
+
+---
+
+# 📌 Key KPIs
+
+The dashboard provides high-level KPIs to quickly understand overall market performance.
+
+| KPI                    | Description                             |
+| ---------------------- | --------------------------------------- |
+| 💰 Total Sales         | Total value of recorded property sales  |
+| 🏷️ Average Sale Price | Average value of property transactions  |
+| 🏠 Total Transactions  | Number of recorded transactions         |
+| 📊 Average Sales Ratio | Average sales ratio across transactions |
+| 🏘️ Property Count     | Number of properties/records analyzed   |
+
+These KPIs provide a quick overview before users move into detailed analysis.
+
+---
+
+# 📈 Dashboard Features
 
 ## 1️⃣ KPI Cards
 
-The dashboard contains key performance indicators:
+The dashboard provides a high-level market summary through KPI cards.
 
-* **Total Sales**
-* **Average Sale Price**
-* **Total Transactions**
-* **Average Sales Ratio**
+Key metrics include:
 
-These KPIs provide a quick overview of the overall market.
+* Total Sales
+* Average Sale Price
+* Total Transactions
+* Average Sales Ratio
 
----
-
-## 2️⃣ Sales by Town — Map
-
-The map provides a geographic view of property sales.
-
-Users can explore different towns and identify areas with stronger sales activity.
-
-### Interactive Feature
-
-Selecting a town can be used to interact with other dashboard visuals through Tableau dashboard actions.
+These metrics allow users to understand the market at a glance.
 
 ---
 
-## 3️⃣ Sales Trend Over Time
+# 2️⃣ Sales Trend Analysis
 
-A line chart is used to analyze sales performance over time.
+A time-series visualization analyzes real estate sales performance between:
 
-### Period Covered
-
-**2011–2022**
-
-### Insight
-
-The overall sales trend shows a **positive movement**, although average sale values remain relatively low.
-
----
-
-## 4️⃣ Sales by Town
-
-A bar chart compares total sales across different towns.
-
-### Key Insight
-
-**Fort Collins** is identified as one of the strongest-performing towns based on overall sales performance.
-
----
-
-## 5️⃣ Sales by Property Type
-
-A chart displays the distribution of sales across property types.
-
-### Key Insight
-
-**Single Family** properties dominate the market, with a total sale amount of approximately:
-
-**2,731,147**
-
----
-
-## 6️⃣ Residential Type Analysis
-
-A treemap is used to compare residential property categories across different towns.
+**2011 → 2022**
 
 This helps identify:
 
+* Long-term market movement
+* Sales growth patterns
+* Changes in transaction activity
+* Market performance over time
+
+### 🔎 Key Insight
+
+The overall analysis shows a **positive sales trend** during the analyzed period.
+
+---
+
+# 3️⃣ Geographic Sales Analysis
+
+The dashboard includes an interactive geographic map for analyzing sales performance across towns.
+
+Users can identify:
+
+* High-performing locations
+* Sales concentration
+* Geographic patterns
+* Differences between towns
+
+The map allows users to visually explore the distribution of real estate sales.
+
+---
+
+# 4️⃣ Sales by Town
+
+A comparative bar chart is used to analyze sales performance across different towns.
+
+### 🔎 Key Insight
+
+**Fort Collins** is identified as one of the strongest-performing towns based on overall sales performance.
+
+This indicates that location has a significant role in real estate sales distribution.
+
+---
+
+# 5️⃣ Property Type Analysis
+
+Property types are analyzed to understand the overall composition of the real estate market.
+
+### 🔎 Key Insight
+
+**Single Family** properties are the dominant property type within the analyzed dataset.
+
+The documented analysis shows an approximate total sale amount of:
+
+### 💰 2,731,147
+
+for the Single Family category.
+
+---
+
+# 6️⃣ Residential Type Analysis
+
+A treemap visualization is used to analyze residential categories across towns.
+
+It helps identify:
+
 * Dominant residential categories
-* Town-level differences
-* High-volume residential segments
+* Location-level differences
+* High-volume segments
+* Market composition
 
 ---
 
-# 🔑 Key Business Insights
+# 7️⃣ Average Sale Value Analysis
 
-### 1. Highest Total Sales
+Average sale values are compared across different towns.
 
-The highest total sales are concentrated in **Fort Collins**.
+### 🔎 Key Insight
 
-### 2. Sales Trend
+**Hot Springs** is identified as having the highest average sale value, at approximately:
 
-The overall sales trend shows a **positive trend between 2011 and 2022**.
+### 💰 9,179.54
 
-### 3. Dominant Property Type
-
-**Single Family** is the most common and dominant property type.
-
-### 4. Highest Average Sale Value
-
-The highest average sale value is observed in **Hot Springs**, at approximately **9,179.54**.
-
-### 5. Sales Ratio Performance
-
-**Bellingham** has the highest sales ratio, indicating stronger sales performance, while **Asheville** has the lowest sales ratio, indicating relatively weaker performance.
+This highlights a significant difference in average property transaction values between locations.
 
 ---
 
-# 🎛️ Dashboard Interactivity
+# 8️⃣ Sales Ratio Analysis
 
-The dashboard includes interactive controls such as:
+Sales ratios are analyzed to compare performance across locations.
 
-### Filters
+### 🔎 Key Findings
+
+* **Bellingham** — highest sales ratio
+* **Asheville** — lowest sales ratio
+
+These differences highlight variations in market performance across locations.
+
+---
+
+# 🎛️ Interactive Features
+
+The dashboard is designed to provide an interactive analytical experience.
+
+## 🔍 Filters
+
+Users can filter the dashboard based on available dimensions such as:
 
 * Town
 * Year
@@ -172,37 +232,55 @@ The dashboard includes interactive controls such as:
 * Residential Type
 * Sale Amount
 
-### Dashboard Actions
+---
 
-#### Filter Action
+## 🔄 Dashboard Actions
 
-Selecting a town can filter related dashboard visuals.
+### Filter Action
 
-Example:
+Selecting a specific town can filter related visualizations.
 
-**Select a Town → Related charts update**
-
-#### Highlight Action
-
-Selecting a town can highlight related marks across dashboard visualizations.
-
-#### URL Action
-
-A dynamic URL action can be used to open an external webpage based on the selected town.
-
-Example:
-
-**Town → Wikipedia / Real Estate Information**
+```text
+Select Town
+     ↓
+Related Charts Update
+     ↓
+Market Analysis Changes
+```
 
 ---
 
-# 📖 Storytelling
+### Highlight Action
 
-The project is organized into three major story points.
+Users can highlight selected towns or categories across multiple visualizations.
 
-## Story 1 — Market Overview
+This makes comparisons easier.
 
-### Contains
+---
+
+### URL Action
+
+The dashboard also supports dynamic URL-based navigation for selected locations.
+
+```text
+Select Location
+      ↓
+Dashboard Action
+      ↓
+External Location Information
+```
+
+---
+
+# 📖 Dashboard Storytelling
+
+The project is structured around three major analytical perspectives.
+
+---
+
+## 📍 Story 1 — Market Overview
+
+### Includes
 
 * KPI Cards
 * Sales Trend
@@ -210,80 +288,85 @@ The project is organized into three major story points.
 
 ### Business Question
 
-> What is the overall condition and trend of the real estate market?
+> What is the overall performance and trend of the real estate market?
 
 ---
 
-## Story 2 — Geographic Performance
+## 📍 Story 2 — Geographic Performance
 
-### Contains
+### Includes
 
 * Geographic Map
 * Sales by Town
-* Average Sale Amount by Town
+* Average Sale Analysis
 
 ### Business Question
 
-> Which towns are performing strongly?
+> Which locations are performing strongly?
 
 ---
 
-## Story 3 — Property Market
+## 📍 Story 3 — Property Market
 
-### Contains
+### Includes
 
-* Property Type Distribution
-* Residential Type Treemap
-* Average Sale Amount
+* Property Type Analysis
+* Residential Type Analysis
+* Sales Distribution
 
 ### Business Question
 
-> Which property types dominate the market?
+> Which property categories dominate the real estate market?
+
+---
+
+# 🧮 Calculated Fields
+
+Tableau calculated fields were used to create analytical metrics.
+
+## Total Sales
+
+```tableau
+SUM([Sale Amount])
+```
+
+---
+
+## Average Sale Amount
+
+```tableau
+AVG([Sale Amount])
+```
+
+---
+
+## Property Count
+
+```tableau
+COUNT([Property ID])
+```
+
+These calculations support the KPI cards and dashboard visualizations.
 
 ---
 
 # 🛠️ Tools & Technologies
 
-| Tool                  | Purpose                               |
-| --------------------- | ------------------------------------- |
-| **Tableau Public**    | Dashboard development & visualization |
-| **Microsoft Excel**   | Data preparation & exploration        |
-| **Maps**              | Geographic analysis                   |
-| **Calculated Fields** | Business metrics                      |
-| **Parameters**        | Interactive metric selection          |
-| **Dashboard Actions** | Filter, Highlight & URL interactions  |
+| Tool / Technology        | Purpose                               |
+| ------------------------ | ------------------------------------- |
+| 📊 **Tableau**           | Dashboard development                 |
+| 🗺️ **Tableau Maps**     | Geographic analysis                   |
+| 🧮 **Calculated Fields** | KPI and metric calculations           |
+| 🎛️ **Parameters**       | Interactive analysis                  |
+| 🔄 **Dashboard Actions** | Filter and highlight interactions     |
+| 📑 **Excel**             | Data preparation / source data        |
+| 💻 **GitHub**            | Project version control and portfolio |
 
 ---
 
-# 📐 Calculated Metrics
+# 📊 Visualization Techniques
 
-Some of the key metrics used in the dashboard include:
-
-### Total Sales
-
-```text
-SUM([Sale Amount])
-```
-
-### Average Sale Amount
-
-```text
-AVG([Sale Amount])
-```
-
-### Property Count
-
-```text
-COUNT([Property ID])
-```
-
-These calculations support KPI cards and analytical visualizations.
-
----
-
-# 🎨 Visualizations Used
-
-The project includes multiple visualization techniques:
+This project demonstrates practical Tableau visualization techniques including:
 
 * KPI Cards
 * Bar Charts
@@ -292,16 +375,277 @@ The project includes multiple visualization techniques:
 * Treemaps
 * Geographic Maps
 * Tables
-* Interactive Filters
+* Filters
 * Parameters
 * Dashboard Actions
+* Interactive Storytelling
+
+---
+
+# 🔄 Project Workflow
+
+```text
+Raw Real Estate Data
+        ↓
+Data Preparation
+        ↓
+Data Exploration
+        ↓
+Data Quality Checks
+        ↓
+Geographic Analysis
+        ↓
+Time-Series Analysis
+        ↓
+Calculated Fields
+        ↓
+Interactive Visualizations
+        ↓
+Dashboard Development
+        ↓
+Business Insights
+        ↓
+Tableau Public
+```
+
+---
+
+# 🧹 Step 1 — Data Preparation
+
+The dataset was prepared for analytical visualization.
+
+Key activities included:
+
+* Reviewing dataset fields
+* Checking data types
+* Reviewing geographic fields
+* Checking data quality
+* Preparing dimensions and measures
+
+---
+
+# 🔍 Step 2 — Exploratory Data Analysis
+
+The dataset was explored to understand:
+
+* Sales distribution
+* Property types
+* Town performance
+* Residential categories
+* Sales trends
+* Average sale values
+
+---
+
+# 📍 Step 3 — Geographic Analysis
+
+Geographic analysis was performed to identify differences in real estate performance across towns.
+
+This included:
+
+* Town-level sales
+* Geographic sales distribution
+* Average sale values
+* Sales ratio comparison
+
+---
+
+# 📈 Step 4 — Trend Analysis
+
+A time-series analysis was created to understand changes in sales performance between 2011 and 2022.
+
+This helped identify long-term market patterns.
+
+---
+
+# 🧮 Step 5 — Calculated Metrics
+
+Calculated fields were created to support:
+
+* Total Sales
+* Average Sale Amount
+* Property Count
+* Sales Ratio Analysis
+
+---
+
+# 🎨 Step 6 — Dashboard Development
+
+Individual visualizations were combined into an interactive Tableau dashboard.
+
+The dashboard contains:
+
+* KPI cards
+* Maps
+* Charts
+* Filters
+* Property analysis
+* Town analysis
+* Residential analysis
+
+---
+
+# 📖 Step 7 — Business Storytelling
+
+The dashboard was structured into three major analytical stories:
+
+1. Market Overview
+2. Geographic Performance
+3. Property Market
+
+This makes the analysis easier for business users to understand.
+
+---
+
+# 💡 Key Business Insights
+
+## 🥇 1. Strong Town-Level Performance
+
+Fort Collins demonstrates strong overall sales performance.
+
+This suggests that the location may represent an important market within the analyzed dataset.
+
+---
+
+## 📈 2. Positive Sales Trend
+
+The overall sales trend from 2011 to 2022 shows positive movement.
+
+However, sales volume and average transaction value should be analyzed separately to understand the complete market picture.
+
+---
+
+## 🏠 3. Single Family Properties Dominate
+
+Single Family properties represent the dominant property type in the dataset.
+
+This makes the segment important for further market analysis.
+
+---
+
+## 💰 4. Location-Based Price Differences
+
+Average sale values vary considerably between towns.
+
+Hot Springs shows one of the highest average sale values in the analysis.
+
+---
+
+## 📊 5. Sales Ratio Variation
+
+Bellingham and Asheville demonstrate differences in sales ratio performance.
+
+This suggests that market behavior can vary significantly by location.
+
+---
+
+# 💼 Business Recommendations
+
+Based on the dashboard findings:
+
+### 1. Focus on High-Performing Locations
+
+Real estate businesses can investigate strong-performing towns such as Fort Collins for:
+
+* Market expansion
+* Property inventory
+* Investment opportunities
+* Customer targeting
+
+---
+
+### 2. Analyze Single Family Demand
+
+Since Single Family properties dominate the market, businesses can further analyze:
+
+* Demand
+* Pricing
+* Inventory
+* Location
+* Transaction volume
+
+---
+
+### 3. Compare Locations Independently
+
+Town-level analysis should be used to identify differences in:
+
+* Sales
+* Average prices
+* Sales ratios
+* Transaction activity
+
+---
+
+### 4. Monitor Long-Term Trends
+
+Businesses should continuously track yearly sales performance to identify:
+
+* Growth
+* Decline
+* Seasonal patterns
+* Market changes
+
+---
+
+# 🚀 Future Improvements
+
+The project can be further enhanced with:
+
+* [ ] Year-over-Year Growth %
+* [ ] Top 5 / Bottom 5 Towns
+* [ ] Dynamic KPI Selector
+* [ ] Median Sale Price
+* [ ] Price Segmentation
+* [ ] Sales Forecasting
+* [ ] Predictive Analytics
+* [ ] Advanced Geographic Analysis
+* [ ] Market Growth Indicators
+* [ ] Drill-Down Analysis
+* [ ] Mobile Dashboard Optimization
+* [ ] Dynamic Tooltips
+* [ ] Advanced Parameter Controls
+
+---
+
+# 🎓 Skills Demonstrated
+
+## Tableau
+
+* Dashboard Development
+* Data Visualization
+* Calculated Fields
+* Parameters
+* Filters
+* Dashboard Actions
+* Geographic Mapping
+* Interactive Storytelling
+
+## Data Analytics
+
+* Data Cleaning
+* Exploratory Data Analysis
+* KPI Development
+* Trend Analysis
+* Geographic Analysis
+* Business Analysis
+* Insight Generation
+
+## Business Intelligence
+
+* Dashboard Design
+* Business Question Development
+* KPI Reporting
+* Interactive Analytics
+* Data Storytelling
+* Decision Support
 
 ---
 
 # 📂 Project Structure
 
 ```text
-Real-Estate-Insights-Dashboard/
+Real-Estate-Insights-Dashboard-Tableau/
 │
 ├── README.md
 │
@@ -311,190 +655,179 @@ Real-Estate-Insights-Dashboard/
 ├── Dashboard/
 │   └── Real_Estate_Insights_Dashboard.twbx
 │
-├── Images/
-│   └── real-estate-dashboard.png
-│
 ├── Documentation/
 │   ├── Business_Questions.md
 │   └── Key_Insights.md
 │
+├── Images/
+│   └── real-estate-dashboard.png
+│
 └── LICENSE
 ```
 
-> **Note:** Add your actual Tableau workbook and dataset files to these folders. If the dataset is too large or cannot be publicly shared, upload only a sample or provide the source/reference instead.
+> Update the filenames above if your actual repository uses different filenames.
 
 ---
 
-# 🚀 Project Workflow
+# 📌 Project Highlights
 
-The project was completed using the following analytical process:
-
-### Step 1 — Data Preparation & Exploration
-
-* Connected the real estate dataset
-* Reviewed fields and data types
-* Checked missing values
-* Checked geographic fields
-* Prepared data for visualization
-
-### Step 2 — Visual Exploration
-
-Created initial visualizations to understand:
-
-* Sales distribution
-* Property types
-* Town performance
-* Sales trends
-
-### Step 3 — Mapping & Time Analysis
-
-Created:
-
-* Geographic sales map
-* Sales trend over time
-* Town-level analysis
-
-### Step 4 — Calculated Fields & Parameters
-
-Created calculated metrics such as:
-
-* Total Sales
-* Average Sale Amount
-* Property Count
-
-Used parameters for interactive metric selection.
-
-### Step 5 — Dashboard Design
-
-Combined visualizations into an interactive dashboard containing:
-
-* KPI section
-* Filters
-* Map
-* Trend chart
-* Town analysis
-* Property analysis
-* Treemap
-
-### Step 6 — Storytelling & Publishing
-
-Created three story points:
-
-1. Market Overview
-2. Geographic Performance
-3. Property Market
-
-Published the final dashboard using Tableau Public.
+| Category          | Details                                        |
+| ----------------- | ---------------------------------------------- |
+| 🏠 Domain         | Real Estate Analytics                          |
+| 📅 Period         | 2011–2022                                      |
+| 📊 Dashboard      | Tableau Interactive Dashboard                  |
+| 🗺️ Analysis      | Geographic / Town Level                        |
+| 📈 Trends         | Time-Series Sales Analysis                     |
+| 💰 KPIs           | Sales, Average Sale, Transactions, Sales Ratio |
+| 🏘️ Property      | Property Type Analysis                         |
+| 🏡 Residential    | Residential Category Analysis                  |
+| 🎛️ Interactivity | Filters & Dashboard Actions                    |
+| 📍 Maps           | Geographic Visualization                       |
+| 📖 Storytelling   | 3 Analytical Stories                           |
 
 ---
 
-# 📸 Dashboard Preview
+# 🧠 What I Learned
 
-Add your dashboard screenshot here:
+This project helped strengthen practical skills in:
 
-![Real Estate Insights Dashboard](./Images/Real_Estate_Sales.png)
-```
-
----
-
-# 🌐 Tableau Public
-
-**Live Dashboard:**
-Add your Tableau Public dashboard link here.
-
-```text
-https://public.tableau.com/app/profile/vikash.rao/viz/Real_Estate_sale/Dashboard?publish=yes
-```
-
-Replace the above with your actual published workbook URL.
+* Building real-world Tableau dashboards
+* Translating business questions into analytical visuals
+* Creating meaningful KPIs
+* Performing geographic analysis
+* Performing time-series analysis
+* Using calculated fields
+* Creating dashboard interactions
+* Designing business-focused visualizations
+* Communicating insights through data storytelling
 
 ---
 
-# 💡 Business Recommendations
+# 📈 Analytical Outcome
 
-Based on the analysis:
+The project converts raw real estate transaction data into an interactive Business Intelligence solution.
 
-### 1. Focus on High-Performing Towns
+The dashboard provides visibility into:
 
-Areas such as **Fort Collins** should receive additional attention because of their strong sales performance.
+**Market Trends → Geographic Performance → Property Types → Residential Categories → Sales Ratios → Business Insights**
 
-### 2. Analyze Low Average Sale Values
-
-Although the overall sales trend is positive, the relatively low average sale amount suggests that transaction volume and transaction value should be analyzed separately.
-
-### 3. Understand Single Family Demand
-
-Since **Single Family** properties dominate the market, businesses can investigate demand, pricing, and inventory patterns within this segment.
-
-### 4. Investigate Sales Ratio Differences
-
-The difference between **Bellingham** and **Asheville** indicates that geographic factors may have an important effect on sales performance.
+The analysis highlights a positive overall sales trend, strong performance in selected towns, significant differences in average sale values, and the dominance of Single Family properties.
 
 ---
 
-# 📈 Future Improvements
+# 👨‍💻 About Me
 
-Possible future improvements include:
+## Vikash Rao
 
-* Add year-over-year growth analysis
-* Add Top 5 / Bottom 5 town analysis
-* Add dynamic parameter-based KPI selection
-* Add price segmentation
-* Add predictive sales analysis
-* Add forecasting
-* Add advanced geographic analysis
-* Add market growth indicators
-* Improve mobile dashboard layout
+**Aspiring Data Analyst**
 
----
+I am passionate about transforming raw data into meaningful business insights using data analytics and Business Intelligence tools.
 
-# 🎓 Project Type
+### 💻 Technical Skills
 
-**Data Analytics | Business Intelligence | Data Visualization | Real Estate Analytics**
-
----
-
-# 👨‍💻 Author
-
-**Vikash Rao**
-
-### Skills Demonstrated
-
+* SQL
+* Python
+* Pandas
+* NumPy
+* Advanced Excel
+* Power BI
 * Tableau
-* Data Visualization
-* Business Analysis
-* Dashboard Design
 * Data Cleaning
 * Exploratory Data Analysis
-* KPI Development
-* Interactive Analytics
-* Business Storytelling
+* Business Intelligence
+* Data Visualization
 
 ---
 
-# ⭐ Project Highlights
+# 🤝 Connect With Me
 
-✔ Interactive Tableau Dashboard
-✔ Real Estate Sales Analysis
-✔ Geographic Performance Analysis
-✔ Time-Series Analysis
-✔ Property Type Analysis
-✔ KPI Cards
-✔ Interactive Filters
-✔ Dashboard Actions
-✔ Business Insights
-✔ Storytelling Dashboard
+I'm open to connecting with:
 
----
-
-## 📌 Conclusion
-
-The **Real Estate Insights Dashboard** converts raw property sales data into an interactive analytical solution.
-
-The dashboard highlights overall market trends, town-level performance, property type dominance, average sale values, and sales ratio differences.
-
-The analysis indicates a **positive overall sales trend**, strong performance in selected towns, and a clear dominance of **Single Family properties**, while differences in average sale values and sales ratios provide opportunities for deeper market analysis.
+* Recruiters
+* Hiring Managers
+* Data Analysts
+* Business Analysts
+* BI Professionals
+* Data Science Professionals
+* Fellow Data Analytics learners
 
 ---
 
-**Built with Tableau Public 📊 | Real Estate Analytics 🏠 | Business Intelligence 💼**
+## 🌐 Portfolio
+
+### [Vikash Rao | Aspiring Data Analyst — SQL, Python, Power BI, Tableau](https://vikashrao-data-portfolio.vercel.app/#projects)
+
+---
+
+## 💼 LinkedIn
+
+### [Connect with me on LinkedIn](https://www.linkedin.com/in/vikash-rao-402044336)
+
+---
+
+## 📊 Tableau Public
+
+### [View My Tableau Public Profile](https://public.tableau.com/app/profile/vikash.rao)
+
+### [View This Real Estate Dashboard](https://public.tableau.com/app/profile/vikash.rao/viz/Real_Estate_sale/Dashboard?publish=yes)
+
+---
+
+## 💻 GitHub
+
+### [Explore My GitHub Projects](https://github.com/vikashrao627-glitch)
+
+---
+
+## 📧 Email
+
+**[vikashrao625@gmail.com](mailto:vikashrao625@gmail.com)**
+
+---
+
+# 📩 Connect / Contact
+
+If you are interested in discussing:
+
+* Data Analytics opportunities
+* Data Analyst roles
+* Business Intelligence
+* Tableau projects
+* Power BI
+* SQL
+* Python
+* Collaboration
+
+feel free to connect with me through **LinkedIn or Email**.
+
+---
+
+# 🙌 Project Creator
+
+## Created & Developed by Vikash Rao
+
+This project was **analyzed, designed, and developed by Vikash Rao** as part of a practical Data Analytics / Business Intelligence portfolio.
+
+The project demonstrates the ability to transform raw data into:
+
+**Data → Analysis → Visualization → Insights → Business Decisions**
+
+---
+
+# ⭐ Support
+
+If you found this project useful:
+
+⭐ **Star this repository**
+
+🔗 **Connect with me on LinkedIn**
+
+📊 **Explore the interactive Tableau dashboard**
+
+---
+
+## 🏠 Real Estate Analytics
+
+### 📊 Tableau × 💼 Business Intelligence × 📈 Data Analytics
+
+**Turning Raw Data into Actionable Business Insights**
